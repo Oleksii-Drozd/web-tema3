@@ -1,0 +1,24 @@
+.separate-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.separate-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.separate-card {
+    border: 2px solid #FFD600;
+    border-radius: 8px;
+    padding: 20px;
+    background: #EFEFEF;
+}
+
+.separate-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
